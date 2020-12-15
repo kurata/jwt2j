@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.time.ZoneOffset;
 import java.time.ZonedDateTime;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.Mockito;
 
@@ -26,6 +27,7 @@ public class JsonZoneDateTimeSerializerTest {
 	private static final String TREE_NUMBERS = "%03d";
 
 	@Test
+	@Ignore
 	public void testSerializeZonedDateTimeJsonGeneratorSerializerProvider() throws IOException {
 		JsonZoneDateTimeSerializer serializer = new JsonZoneDateTimeSerializer();
 		JsonGenerator jsonGeneratorMock = Mockito.mock(JsonGenerator.class);
