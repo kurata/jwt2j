@@ -3,5 +3,7 @@
 .project
 .settings/
 
+.idea
+
 ## Maven Target Directory ##
 /target/
